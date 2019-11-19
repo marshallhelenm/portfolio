@@ -2593,7 +2593,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/fulls/purple.jpg"), url("../../images/fulls/purple.jpg");
+		background-image: url("images/fulls/trail.jpg"), url("../../images/fulls/trail.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2999,6 +2999,7 @@ input, select, textarea {
 			#header {
 				padding: 6em 3em 3em 3em;
 				width: 30%;
+				background-size: cover;
 			}
 
 				#header h1 {
