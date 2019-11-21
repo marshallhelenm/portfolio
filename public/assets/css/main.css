@@ -2592,11 +2592,12 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
+		/* background-attachment: scroll,								scroll; */
 		background-image: url("images/fulls/trail.jpg"), url("../../images/fulls/trail.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: absolute;
+		background-size: cover;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
