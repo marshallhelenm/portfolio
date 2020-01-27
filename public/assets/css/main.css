@@ -2143,6 +2143,8 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
+				border-width: 3px;
+				border-color: rgba(11, 11, 11, 0.591);
 				width: 100%;
 			}
 
