@@ -4,6 +4,7 @@ function main() {
 }
 
 function fetchPosts() {
+  console.log('fetching posts')
   fetch("https://dev.to/api/articles/me/published", {
     method: "GET",
     headers: {
