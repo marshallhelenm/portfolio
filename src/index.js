@@ -4,22 +4,7 @@ function main() {
 }
 
 function fetchPosts() {
-  console.log("fetching posts");
-
-  var myHeaders = new Headers();
-  myHeaders.append("api-key", "kVaN98morrQBgw3sQDSR3dqK");
-
-  var requestOptions = {
-    method: "GET",
-    headers: myHeaders,
-    redirect: "follow"
-  };
-
-  fetch("https://dev.to/api/articles/me/published?=", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log("error", error));
-}
+  
 
 // https://dev.to/feed/marshallhelenm
 
