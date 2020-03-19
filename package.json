@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "acorn": "^7.1.1",
+    "acorn": "^5.7.4",
     "jest": "^25.1.0",
     "minimist": "^1.2.5",
     "react": "^16.13.0",
